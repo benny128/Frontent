@@ -1,0 +1,31 @@
+/* Qs1. Create a box using div. Set- Its height to 150px,width to 300px and the background color to grey.-Border to a 5px, black,
+ dotted border.- Atopmargin of 20px.- Aright margin of 1em.- Abottom margin of 40px.- Aleft margin of 2em.- Padding on all sides of 1em. */
+
+
+.box{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 1em;
+    padding:all 1em;
+}
+
+/* Qs2. Create 3 divs with the following properties- Height & Width of 100px- Background color to pink- Border to 2px
+  solid black- Makethis div in the shape of circle- Place all the 3 divs in a single line */
+
+.div{
+    height:100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Qs3. Create a list of technologies- HTML, CSS, JavaScript, NodeJS, ReactJS, SQL,
+MongoDB, Java, C++, C & Python. */
+
+li{
+    display: inline-block;
+}

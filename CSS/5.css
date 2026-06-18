@@ -1,0 +1,148 @@
+ /* <--1.CSS PART 5 /--> */
+
+.cover{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius:10px;
+    border: 2px solid rgb(64, 212, 200);
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.a{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin: 10px;
+     text-align: center;
+    font-size:5em;
+    background-color: grey;
+}
+.b{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin:10px;
+     text-align: center;
+    font-size:5em;
+    background-color: grey;
+}
+.c{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin:10px;
+     text-align: center;
+    font-size:5em;
+    background-color: grey;
+}
+.d{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin:10px;
+     text-align: center;
+    font-size:5em;
+    background-color: grey;
+}
+.e{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin:10px;
+     text-align: center;
+    font-size:5em;
+    background-color: grey;
+}
+.f{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin:10px;
+     text-align: center;
+    font-size:5em;
+    background-color: grey;
+}
+.g{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin:10px;
+    font-size:5em;
+    text-align: center;
+    background-color: grey;
+}
+.h{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin:10px;
+    text-align: center;
+    font-size:5em;
+    background-color: grey;
+
+}
+.i{
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin:10px;
+    text-align: center;
+    font-size:5em;
+    background-color: grey;
+}
+
+ /*2. part 5 css */
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: pink;
+    border: 2px solid green;
+    border-radius:10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav{
+    height: 25px;
+    width: 100px;
+    background-color:rgb(220, 89, 111);
+    border:2px solid rgb(241, 53, 97);
+    border-radius: 20px;
+    color: black;
+    text-align: start;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    transition: all 0.1s;
+
+}
+
+.nav:hover{
+    background-color: rgb(241, 53, 97);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px red;
+}

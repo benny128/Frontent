@@ -1,0 +1,132 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border:2px solid black;
+
+}
+.inner{
+height:50px;
+width:50px;
+border:2px solid black;
+margin: 10px;
+border-radius: 50px;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+
+
+* 
+/* . Create 3 divs with the following properties
+- Height & Width of 100px
+- Background color to pink
+- Border to 2px solid black
+- Make this div in the shape of circle
+- Place all the 3 divs in a single line */ */
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px,black,solid;
+    border-radius:50px;
+    display: inline-flex;
+
+}
+
+/* Qs3. Create a list of technologies - HTML, CSS, JavaScript, NodeJS, ReactJS, SQL,
+MongoDB, Java, C++, C & Python.
+Now change the display of all list items to inline to move them all in a single line.
+Did you notice something different? Try to find why the bullet points disappear */
+
+li{
+    display:inline;
+}
+
+
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-right: 0 auto;
+    transition: margin-left 1s ease-in-out 0.2s;
+}
+
+div:hover{
+    margin-left:0px;
+    background-color: red;
+}
+
+
+.card{
+    height:200px;
+    width:200px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius:10px;
+    display: inline-block;
+
+}
+img{
+    width: 50%;
+    border-radius:10px 10px 0px 0px;
+}
+
+
+
+/* SMILE FACE */
+
+
+
+.face{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 174, 0);
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 30px 15px rgb(45, 95, 4);
+    transition: 1s ease-in-out;
+}
+
+.face:hover{
+    box-shadow: 0px 0px 10px 1px rgb(185, 42, 23);
+}
+.mouth{
+    height:75px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top:250px;
+    left:100px;
+}
+.left-eye, .right-eye{
+    height: 70px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display:inline-block;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.right-eye{
+    left: 250px;
+
+}
+
+
+
+
+
+

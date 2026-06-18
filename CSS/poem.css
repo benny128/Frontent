@@ -1,0 +1,60 @@
+/* 2. Change the color of the poem in the page to brown (use the hex code for color) */
+p{
+    background-color: #a52a2a;
+    color: red;
+}
+
+/* 3. Align all the headings & the poem to the center of the poge */
+
+h3,h4{
+    text-align: center;
+}
+
+/* 4. Change the color of the poem to red & the poet’s name to black. */
+
+h3{
+    color: black;
+}
+
+/* 5. Change the font of the entire document to the font - Georgia. */
+
+body{
+    font:Georgia;
+}
+
+/* 6. Set the color of the Wikipedia link to green & remove its underline (use the rgb
+value for color) */
+a{
+    text-decoration: none;
+    color:#008000;
+}
+
+/* 7. Change the button background color to white & button text to blueviolet */
+
+button{
+    background-color: white;
+    color:blueviolet;
+}
+
+/* 8. What is the hex code for black color? Set the textarea font color to black. */
+textarea{
+    color:#000000;
+}
+
+/* 9. Set the poem’s line-height to 30px */
+p{
+    line-height:30px;
+    text-align: center;
+}
+
+/* 10. Underline only the word Ozymandias inside the poem */
+
+h1{
+    text-decoration:underline;
+    text-align: center;
+    font-family: Georgia;
+    color: red;
+}
+span{
+    color: black;
+}
